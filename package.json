@@ -1,0 +1,22 @@
+{
+  "name": "bot_blazer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js && node --experimental-json-modules injectDataInBd.js",
+    "inject": "node --experimental-json-modules injectDataInBd.js",
+    "mountdata": "node --experimental-json-modules mountdata.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.6.0",
+    "puppeteer": "^14.1.1",
+    "puppeteer-page-proxy": "^1.2.8"
+  }
+}
